@@ -12,7 +12,8 @@ class Settings(BaseSettings):
     TESSERACT_PATH: str = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 
     # Database
-    DATABASE_URL: str = "mysql+pymysql://root:password@localhost:3306/ml_converter"
+    DATABASE_URL: str = "mysql+pymysql://root:root2705@localhost:3306/ml_converter"
+    
 
     # File limits
     MAX_FILE_SIZE_MB: int = 50
